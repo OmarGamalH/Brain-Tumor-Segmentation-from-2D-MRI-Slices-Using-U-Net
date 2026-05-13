@@ -1,4 +1,4 @@
-# 🧠 Brain Tumor Segmentation with U-Net
+# Brain Tumor Segmentation with U-Net
 
 A PyTorch implementation of a U-Net architecture for automated brain tumor segmentation, trained on the **BRISC 2025** dataset. The model performs pixel-level binary segmentation to identify tumor regions in grayscale MRI scans.
 
