@@ -164,7 +164,21 @@ save_model(model, filename="Segmentation_model.pk")
 
 ## Results
 
-Loss convergence is tracked over 40 epochs and plotted with `plot_losses()`. Qualitative results are visualized by comparing actual annotated images to model predictions side-by-side.
+### 🖼️ Training Samples with Ground Truth Masks
+
+The figure below shows a sample of MRI brain scans from the training set with their ground truth tumor masks overlaid in white. Each image is center-cropped to 256×256 and converted to grayscale before being fed to the model.
+
+![Training samples with ground truth masks](https://github.com/user-attachments/assets/09b9f8a0-26f4-4071-8805-60f99c3342b0)
+
+---
+
+### 🔬 Predicted Masks vs. Ground Truth
+
+The figure below shows side-by-side comparisons of actual annotated MRI scans (left) and the model's predicted segmentation masks (right) on the test set. White regions indicate identified tumor areas. Predictions are generated using a sigmoid threshold of `0.99`.
+
+![Predicted vs actual segmentation masks](https://github.com/user-attachments/assets/5439c766-8052-4920-af69-cd888287d01e)
+
+Loss convergence is tracked over 40 epochs and plotted with `plot_losses()`.
 
 ---
 
