@@ -172,7 +172,9 @@ The plot shows the average BCEWithLogitsLoss per epoch over 40 training iteratio
 - Epochs 5–20: The descent continues steadily but more gradually, reaching ~0.15, as the model refines its feature representations.
 - Epochs 20–40: The curve flattens and converges smoothly toward ~0.05–0.06, with only minor fluctuations — a sign of stable training without oscillation or overfitting signals.
 
-![Training samples with ground truth masks](https://github.com/user-attachments/assets/09b9f8a0-26f4-4071-8805-60f99c3342b0)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/09b9f8a0-26f4-4071-8805-60f99c3342b0" alt="Training samples with ground truth masks"/>
+</p>
 
 ---
 
