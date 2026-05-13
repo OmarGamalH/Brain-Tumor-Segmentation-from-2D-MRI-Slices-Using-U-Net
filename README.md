@@ -164,9 +164,13 @@ save_model(model, filename="Segmentation_model.pk")
 
 ## Results
 
-### 🖼️ Training Samples with Ground Truth Masks
+### 🖼️ Training Loss Curve
 
-The figure below shows a sample of MRI brain scans from the training set with their ground truth tumor masks overlaid in white. Each image is center-cropped to 256×256 and converted to grayscale before being fed to the model.
+The plot shows the average BCEWithLogitsLoss per epoch over 40 training iterations.
+
+- Epochs 1–5: The loss drops sharply from ~0.95 down to ~0.35, indicating the model learns the dominant patterns in the data very quickly in early training.
+- Epochs 5–20: The descent continues steadily but more gradually, reaching ~0.15, as the model refines its feature representations.
+- Epochs 20–40: The curve flattens and converges smoothly toward ~0.05–0.06, with only minor fluctuations — a sign of stable training without oscillation or overfitting signals.
 
 ![Training samples with ground truth masks](https://github.com/user-attachments/assets/09b9f8a0-26f4-4071-8805-60f99c3342b0)
 
