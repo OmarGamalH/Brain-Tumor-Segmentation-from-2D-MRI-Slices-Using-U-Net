@@ -164,7 +164,7 @@ save_model(model, filename="Segmentation_model.pk")
 
 ## Results
 
-### 🖼️ Training Loss Curve
+### Training Loss Curve
 
 The plot shows the average BCEWithLogitsLoss per epoch over 40 training iterations.
 
@@ -176,7 +176,7 @@ The plot shows the average BCEWithLogitsLoss per epoch over 40 training iteratio
 
 ---
 
-### 🔬 Predicted Masks vs. Ground Truth
+### Predicted Masks vs. Ground Truth
 
 The figure below shows side-by-side comparisons of actual annotated MRI scans (left) and the model's predicted segmentation masks (right) on the test set. White regions indicate identified tumor areas. Predictions are generated using a sigmoid threshold of `0.99`.
 
