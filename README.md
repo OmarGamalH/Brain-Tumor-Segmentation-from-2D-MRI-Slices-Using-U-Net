@@ -184,10 +184,4 @@ The figure below shows side-by-side comparisons of actual annotated MRI scans (l
 
 Loss convergence is tracked over 40 epochs and plotted with `plot_losses()`.
 
----
 
-## Notes
-
-- The `DeconderBlock` class name is a typo in the source code (should be `DecoderBlock`) — preserved here for consistency with the implementation.
-- The dataset loader silently skips images smaller than 256×256 by cycling to the next sample; this may cause subtle epoch-level inconsistencies for very small datasets.
-- For production use, consider replacing `pickle` model saving with `torch.save(model.state_dict(), ...)` for better portability.
