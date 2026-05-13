@@ -184,4 +184,17 @@ The figure below shows side-by-side comparisons of actual annotated MRI scans (l
 
 Loss convergence is tracked over 40 epochs and plotted with `plot_losses()`.
 
+---
 
+## Author
+
+**Omar Gamal Hamed**
+
+[![GitHub](https://img.shields.io/badge/GitHub-OmarGamalH-181717?logo=github)](https://github.com/OmarGamalH/PneumoNet-Deep-Learning-for-Pneumonia-Detection)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-omar--gamal--hamed-0A66C2?logo=linkedin)](https://www.linkedin.com/in/omar-gamal-hamed/)
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
