@@ -182,7 +182,9 @@ The plot shows the average BCEWithLogitsLoss per epoch over 40 training iteratio
 
 The figure below shows side-by-side comparisons of actual annotated MRI scans (left) and the model's predicted segmentation masks (right) on the test set. White regions indicate identified tumor areas. Predictions are generated using a sigmoid threshold of `0.99`.
 
-![Predicted vs actual segmentation masks](https://github.com/user-attachments/assets/5439c766-8052-4920-af69-cd888287d01e)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5439c766-8052-4920-af69-cd888287d01e" alt="Predicted vs actual segmentation masks"/>
+</p>
 
 Loss convergence is tracked over 40 epochs and plotted with `plot_losses()`.
 
